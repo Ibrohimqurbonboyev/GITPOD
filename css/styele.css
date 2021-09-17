@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: ('')
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: ('')
+         url('../fonts/roboto-v27-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* header start */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+}
+
+.sitelogo-img{
+    width: 131px;
+    height: 40px;
+}
+
+.site-logo {
+    display: block;
+}
+.site-nav {
+}
+.sitenav-list {
+    display: flex;
+}
+.sitenav-item {
+    margin-right: 48px;
+}
+
+.sitenav-item:last-child{
+    margin-right: 0;
+}
+
+.sitenav-link {
+    color: rgba(18, 16, 12, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+}
+.sitenav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 22px;
+    color: #F9F9F9;
+    font-size: 14px;
+    line-height: 20px;
+    background: #12100C;
+    border-radius: 12px;
+}
+/* header end */
+
+
+
