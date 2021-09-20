@@ -171,4 +171,62 @@ body {
 }
 /* project end */
 
+/* env start */
+
+.env {
+  padding-top: 339px;
+  padding-bottom: 337px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.env-content {
+  width: 648px;
+}
+.env-heading {
+  font-size: 32px;
+  line-height: 40px;
+  color: #12100C;
+  margin-bottom: 8px;
+}
+.env-text {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 151px;
+}
+.env-wrapper {
+}
+.btn {
+}
+.btn-yellow {
+  padding: 7px 18px 9px 18px;
+  background: #FFAE33;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10.5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #12100C;
+  margin-right: 16px;
+}
+.btn-pink {
+  padding: 7px 24px 9px 24px;
+  background: #FFB0AE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10.5px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #12100C;
+}
+.env-img {
+  height: 472px;
+  width: 590px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+
+}
+
 
