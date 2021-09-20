@@ -150,6 +150,25 @@ body {
 }
 /* showcase end */
 
+/* project start */
+.project {
+  text-align: center;
+}
+.project-heading {
+  font-size: 54px;
+  line-height: 64px;
+  text-align: center;
+  color: #12100C;
+}
+.project-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 64px;
+  text-decoration-line: line-through;
+  color: #999795;
 
+}
+/* project end */
 
 
