@@ -18,6 +18,8 @@
     url("../fonts/roboto-v27-latin-700.woff") format("woff");
 }
 
+/* Dont  */
+
 * {
   margin: 0;
   padding: 0;
@@ -233,8 +235,7 @@ body {
   align-items: center;
   text-align: center;
 }
-.secu-h1 {
-}
+
 .header-text {
   text-align: center;
   width: 775px;
@@ -245,8 +246,7 @@ body {
   line-height: 72px;
   color: #12100C;
 }
-.text-h1 {
-}
+
 .secu-img {
   height: 821px;
   background: url(.jpg);
@@ -256,8 +256,7 @@ body {
 .secutext {
   text-align: center;
 }
-.text-p {
-}
+
 .secu-btn-hrom {
   font-size: 18px;
   line-height: 32px;
@@ -268,18 +267,14 @@ body {
   border-radius: 9px;
   height: 47px;
 }
-.bx {
-}
-.bxl-chrome {
-}
+
 .secu-btn-fox {
   font-size: 18px;
   line-height: 32px;
   text-align: center;
   color: #12100C;
 }
-.bxl-firefox {
-}
+
 /* secu end */
 
 
