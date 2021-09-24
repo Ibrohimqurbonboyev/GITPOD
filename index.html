@@ -138,108 +138,684 @@
                 </div>
             </section>
         <!-- secure end -->
-
-        <!-- User start -->
-        <section class="user">
-            <h2 class="user-heading">Used by 400,000+ developers.</h2>
-                <div class="text-wrapper">
-                    <div class="text-card">
-                        <p class="texr-text">GitPod is incredibly cool.</p>
-                        <p class="test-text">
-                            In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.
+        Farrux Ma'rufjonov, [17.09.21 21:01]
+        /* FONTS  */
+        @font-face {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"),
+            url("../fonts/roboto-v27-latin-regular.woff") format("woff");
+        }
+        
+        @font-face {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 700;
+          font-display: swap;
+          src: url("../fonts/roboto-v27-latin-700.woff2") format("woff2"),
+            url("../fonts/roboto-v27-latin-700.woff") format("woff");
+        }
+        
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        a {
+          text-decoration: none;
+        }
+        
+        ul {
+          list-style: none;
+        }
+        
+        body {
+          background: #f5f3f4;
+          font-family: "Roboto", sans-serif;
+        }
+        
+        /* utils class */
+        
+        .container {
+          padding: 0 65px;
+          max-width: 1310px;
+          width: 100%;
+          margin: 0 auto;
+        }
+        
+        /* header start */
+        
+        .site-header {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 32px;
+        }
+        .site-logo {
+          display: block;
+        }
+        .sitelogo-img {
+          width: 131px;
+          height: 40px;
+        }
+        
+        .sitenav-list {
+          display: flex;
+        }
+        .sitenav-item:not(:last-child) {
+          margin-right: 48px;
+        }
+        
+        .sitenav-link {
+          color: rgba(18, 16, 12, 0.7);
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .sitenav-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 6px 22px;
+          background: #12100c;
+          border-radius: 12px;
+          color: #f9f9f9;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        
+        /* header end */
+        
+        /* showcase start */
+        .showcase {
+          display: flex;
+          align-items: center;
+          padding-top: 52px;
+          padding-bottom: 176px;
+        }
+        .showcase-content {
+          width: 550px;
+        }
+        .showcase-heading {
+          font-size: 80px;
+          line-height: 88px;
+          color: #12100c;
+          margin-bottom: 38px;
+        }
+        .showcase-text {
+          font-size: 23px;
+          line-height: 32px;
+          color: rgba(18, 16, 12, 0.7);
+          margin-bottom: 48px;
+        }
+        .showcase-wrapper {
+          display: flex;
+          margin-bottom: 18px;
+        }
+        .showcase-btn {
+          padding: 12px 46px;
+          display: block;
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 22px;
+          text-align: center;
+          color: #12100c;
+          background: #ffae33;
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+          border-radius: 16px;
+          margin-right: 24px;
+        }
+        .showcase-wrapper-text {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .showcase-social {
+        }
+        .showcase-social-item {
+        }
+        .showcase-social-link {
+        }
+        .showcase-social-icon {
+        }
+        .showcase-img {
+        }
+        /* showcase end */
+        
+        Farrux Ma'rufjonov, [24.09.21 19:15]
+        <!-- user start -->
+        
+              <section class="user">
+                <h2 class="user-heading">Used by 400,000+ developers.</h2>
+                <div class="test-wrapper">
+                  <div class="test-card">
+                    <p class="test-text">GitPod is incredibly cool.</p>
+                    <p class="test-text">
+                      In my opinion, this is a big step in open source software
+                      contribution. I'm excited to see where we go from here.
+                    </p>
+                    <div class="test-user">
+                      <img
+                        src="img/user1.png"
+                        alt="user 1"
+                        class="test-img"
+                        width="48"
+                        height="48"
+                      />
+                      <div class="user-info">
+                        <h4 class="user-name">Ben Halpern</h4>
+                        <p class="user-info-text">
+                          Creator and Co-founder
+                          <strong class="user-info-bold">@forem</strong> and
+                          <strong class="user-info-bold">@ThePracticalDev</strong>
                         </p>
-                        <div class="test-user">
-                            <img src="img/Rectangle (3).png" alt="user 1" class="test-img" width="48" height="48">
-                            <div class="user-info">
-                                <h4 class="user-name">Ben Halpern</h4>
-                                <p class="user-info-text">Creator and Co-founder<strong class="user-info-bold">@forem</strong>and <strong class="user-info-bold">@ThePracticalDev</strong></p>
-                            </div>                
-                        </div>
+                      </div>
                     </div>
-
-                    <div class="text-card">
-                        <p class="texr-text">Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked.</p>
-                        <p class="test-text">
-                            Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)
+                  </div>
+                  <div class="test-card">
+                    <p class="test-text">
+                      Let's say we were overwhelmed how smooth @gitpod workspaces
+                      creation & own Docker image for workspaces worked.
+                    </p>
+                    <p class="test-text">
+                      Plus, installing @code extensions from the store and integrating
+                      @gitlab CI. That blew my mind entirely, and that is hard ;)
+                    </p>
+                    <div class="test-user">
+                      <img
+                        src="img/user2.png"
+                        alt="user 1"
+                        class="test-img"
+                        width="48"
+                        height="48"
+                      />
+                      <div class="user-info">
+                        <h4 class="user-name">Michael Friedrich</h4>
+                        <p class="user-info-text">
+                          Developer Evangelist
+                          <strong class="user-info-bold">@GitLab</strong>
                         </p>
-                        <div class="test-user">
-                            <img src="img/Rectangle (4).png" alt="user 1" class="test-img" width="48" height="48">
-                            <div class="user-info">
-                                <h4 class="user-name">Michael Friedrich</h4>
-                                <p class="user-info-text">Developer Evangelist<strong class="user-info-bold">@GitLab</strong></p>
-                            </div>                
-                        </div>
+                      </div>
                     </div>
-                    <div class="text-card">
-                        <p class="texr-text">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
-                        <div class="test-user">
-                            <img src="img/Rectangle (5).png" alt="user 1" class="test-img" width="48" height="48">
-                            <div class="user-info">
-                                <h4 class="user-name">Julius Volz</h4>
-                                <p class="user-info-text">Creator<strong class="user-info-bold">@PrometheusIO</strong></p>
-                            </div>                
-                        </div>
+                  </div>
+                  <div class="test-card">
+                    <p class="test-text">
+                      Look at any PR (pull request) in a full coding environment where
+                      you can edit, build, and test the PR code, by just prepending
+                      "gitpod.io#" to the PR URL. Super useful for reviewing/testing
+                      stuff without having to check it out locally!
+                    </p>
+                    <div class="test-user">
+                      <img
+                        src="img/user3.png"
+                        alt="user 1"
+                        class="test-img"
+                        width="48"
+                        height="48"
+                      />
+                      <div class="user-info">
+                        <h4 class="user-name">Julius Volz</h4>
+                        <p class="user-info-text">
+                          Creator
+                          <strong class="user-info-bold">@PrometheusIO</strong>
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
                 <div class="company-wrapper">
-                    <ul class="comany-list">
-                        <li class="company-item">
-                            <img src="img/4geeks.png" alt="" class="company-img" width="130" height="16">
-                        </li>
-                        <li class="company-item">
-                            <img src="img/amazon.png" alt="" class="company-img" width="916" height="6">
-                        </li>
-                        <li class="company-item">
-                            <img src="img/freecodecamp.png" alt="" class="company-img" width="129" height="64">
-                        </li>
-                        <li class="company-item">
-                            <img src="img/gitlab.png" alt="" class="company-img" width="197" height="27">
-                        </li>
-                        <li class="company-item">
-                            <img src="img/google.png" alt="" class="company-img" width="667" height="11">
-                        </li>
-                        <li class="company-item">
-                            <img src="img/uber.png" alt="" class="company-img" width="95" height="33">
-                        </li>
-                    </ul>
-                </div>
-        </section>
-        <!-- User end -->
-    </main>
-    <!-- main end -->
+                  <ul class="comany-list">
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/gitlab.png"
+                          alt="gitlab"
+                          width="95"
+                          height="42"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/freecodecamp.png"
+                          alt="freecodecamp"
+                          width="130"
+                          height="16"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/wave.png"
+                          alt="wave"
+                          width="124"
+                          height="82"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
     
-    <!-- secu start -->
-    <!-- <section class="secu">
-        <div class="secu-h1">
-            <div class="header-text">
-                <h1 class="text-h1">
-                    Remote-first. Secure by design.
-                </h1>
-            </div>
-            <br>
-            <br>
-            <br>
-            <img src="img/Rectangle (2) (1).svg" alt="" class="secu-img">
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="secutext">
-                <p class="text-p">
-                    You no longer need an over-powered laptop to code, Gitpod works just as <br> smoothly on a Chromebook or iPad. All you need is a browser. Gitpod centralizes <br> all source code and never stores it on insecure machines and networks.
-                </p>
-                <div class="secu-btn">
-                    <a href="#" class="secu-btn-hrom"><i class='bx bxl-chrome'></i>Chrome Extension</a>
-                    <a href="#" class="secu-btn-fox"><i class='bx bxl-firefox' ></i>Firefox Extension</a>
+        <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/google.png"
+                          alt="google"
+                          width="86"
+                          height="29"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/amazon.png"
+                          alt="amazon"
+                          width="138"
+                          height="33"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/facebook.png"
+                          alt="facebook"
+                          width="138"
+                          height="22"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/uber.png"
+                          alt="uber"
+                          width="138"
+                          height="37"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="company-list">
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/openai.png"
+                          alt="openai"
+                          width="138"
+                          height="37"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/intel.png"
+                          alt="intel"
+                          width="138"
+                          height="67"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/theia.png"
+                          alt="theia"
+                          width="138"
+                          height="17"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/code.png"
+                          alt="code"
+                          width="138"
+                          height="46"
+                        />
+                      </a>
+                    </li>
+                    <li class="company-item">
+                      <a href="#" class="company-link">
+                        <img
+                          class="company-img"
+                          src="img/4geeks.png"
+                          alt="uber"
+                          width="138"
+                          height="38"
+                        />
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- secu end -->
-                                                                                
-    <!-- footer start -->
-    <footer>
+              </section>
         
+              <!-- user end -->
+              <!-- featured staret -->
+              <section class="feature">
+                  <h2 class="feature-heading">Get started now</h2>
+                  <div class="feature-card-wrapper">
+                      <div class="feature-box">
+                          <h3 class="feture-title">Connect Git repository</h3>
+                          <p class="feature-text">Select a Git provider to start with an existing project from any Git context.</p>
+                          <ul class="social-list">
+                              <li class="social-item">
+                                <a href="#" class="social-link">
+                                  <img src="img/Frame (17).png" alt="" class="social-img" width="28" height="28">
+                                  <h4 class="social-subtitle">Continue with GitLab</h4>
+                              </a>
+                            </li>
+                              <li class="social-item">
+                                <a href="#" class="social-link">
+                                  <img src="img/Vector (3).png" alt="" class="social-img" width="28" height="28">
+                                  <h4 class="social-subtitle">Continue with GitLab</h4>
+                              </a>
+                            </li>
+                              <li class="social-item">
+                                <a href="#" class="social-link">
+                                  <img src="img/Vector (4).png" alt="" class="social-img" width="28" height="28">
+                                  <h4 class="social-subtitle">Continue with GitLab</h4>
+                              </a>
+                            </li>
+                          </ul>
+                          <p class="feature-text">
+                            Or prefix any GitLab, GitHub or Bitbucket URL with
+                          </p>
+                        </div>
+                        <div class="feature-box">
+                            <h3 class="feature-title">Launch an example workspace</h3>
+                            <p class="feature-text">Dive into one of our example workspaces</p>
+                            <ul class="feature-item">
+                                <li class="feature-item">
+                                <div class="feature-item-wrapper">
+                                    <img src="img/s.png" alt="" class="tech-img" width="27"height27>
+                                    <p class="tech-text">Node or TypeScript</p>
+                                </div>
+                                <a href="#" class="tech-btn">launch</a>
+                            </li>
+                                <li class="feature-item">
+                                <div class="feature-item-wrapper">
+                                    <img src=" alt="" class="tech-img" width="27"height27>
+                                    <p class="tech-text">Node or TypeScript</p>
+                                </div>
+                                <a href="#" class="tech-btn">launch</a>
+                            </li>
+                                <li class="feature-item">
+                                <div class="feature-item-wrapper">
+                                    <img src="img/typescript.png" alt="" class="tech-img" width="27"height27>
+                                    <p class="tech-text">Node or TypeScript</p>
+                                </div>
+                                <a href="#" class="tech-btn">launch</a>
+                            </li>
+                                <li class="feature-item">
+                                <div class="feature-item-wrapper">
+                                    <img src="img/typescript.png" alt="" class="tech-img" width="27"height27>
+                                    <p class="tech-text">Node or TypeScript</p>
+                                </div>
+                                <a href="#" class="tech-btn">launch</a>
+                            </li>
+                                <li class="feature-item">
+                                <div class="feature-item-wrapper">
+                                    <img src="img/typescript.png" alt="" class="tech-img" width="27"height27>
+                                    <p class="tech-text">Node or TypeScript</p>
+                                </div>
+                                <a href="#" class="tech-btn">launch</a>
+                            </li>
+                            </ul>
+                        </div>
+                  </div>
+              </section>
+              <!-- featured end-->
+    </main>
+
+    
+    <footer class="site-footer">
+         <div class="footer-top">
+             <div class="footer-container">
+                 <div class="footer-link-wrapper">
+                     <ul class="footer-link-wrapper">
+                         <li class="footer-box">
+                             <h3 class="footer-box-heading">
+                                 Gitpod
+                             </h3>
+                             <ul class="footer-link-item">
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Home</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Features</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Pricing</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Changelog</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Self-Hosted</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Gitpod vs GitHub</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Codespaces</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Status</a>
+                                 </li>
+                             </ul>
+                         </li>
+                         <li class="footer-box">
+                             <h3 class="footer-box-heading">
+                                 Developer
+                             </h3>
+                             <ul class="footer-link-item">
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Getting started</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Screencasts</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Blog</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Documentation</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Report a bug</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Community</a>
+                                 </li>
+                             </ul>
+                         <li class="footer-box">
+                             <h3 class="footer-box-heading">
+                                 Gitpod
+                             </h3>
+                             <ul class="footer-link-item">
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Home</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Features</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Pricing</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Changelog</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Self-Hosted</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Gitpod vs GitHub</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Codespaces</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Status</a>
+                                 </li>
+                             </ul>
+                         </li>
+                         <li class="footer-box">
+                             <h3 class="footer-box-heading">
+                                Company
+                             </h3>
+                             <ul class="footer-link-item">
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">About</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Careers</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Contact</a>
+                                 </li>
+                         <li class="footer-box">
+                             <h3 class="footer-box-heading">
+                                Legal
+                             </h3>
+                             <ul class="footer-link-item">
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Imprint</a>
+                                 </li>
+                                 <li class="footer-link-item">
+                                     <a href="#" class="footer-link">Terms of Service</a>
+                                 </li>
+                                </ul>
+                         </li>
+                     </ul>
+                     <hr class="footer-line">
+                     <div class="footer-button">
+                         <div class="copy-right">
+                             <a href="#" class="footer-logo-img">
+                                 <img src="img/Vector (2) (1).svg" alt="" class="footer-logo"width22 height="24">
+                             </a>
+                             <p class="copyright-text">
+                                Copyright ©20212021
+                             </p>
+                         </div>
+                         Farrux Ma'rufjonov, [24.09.21 20:32]
+                         <ul class="footer-social">
+                                       <li class="footer-social-list">
+                                         <a href="#" class="footer-social-link">
+                                           <svg
+                                             width="24"
+                                             height="24"
+                                             fill="none"
+                                             xmlns="http://www.w3.org/2000/svg"
+                                           >
+                                             <path
+                                               fill-rule="evenodd"
+                                               clip-rule="evenodd"
+                                               d="M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12Zm11.64-2.246.026.415-.42-.05c-1.528-.196-2.862-.857-3.995-1.967l-.554-.55-.143.406c-.302.907-.11 1.864.52 2.508.336.356.26.407-.319.195-.201-.068-.377-.118-.394-.093-.059.06.143.83.302 1.136.218.423.663.838 1.15 1.084l.411.195-.486.009c-.47 0-.487.008-.437.186.168.55.831 1.136 1.57 1.39l.52.178-.453.271c-.672.39-1.46.61-2.25.627-.377.008-.688.042-.688.068 0 .085 1.024.56 1.62.745 1.788.551 3.911.314 5.506-.627 1.133-.669 2.267-2 2.795-3.288.286-.686.571-1.94.571-2.542 0-.39.025-.44.495-.906.277-.272.538-.568.588-.653.084-.16.076-.16-.353-.017-.713.254-.814.22-.461-.16.26-.272.57-.763.57-.908 0-.025-.125.017-.268.094a4.685 4.685 0 0 1-.739.288l-.453.144-.411-.28c-.227-.152-.546-.322-.714-.373-.428-.118-1.082-.101-1.469.034-1.049.382-1.712 1.365-1.636 2.44Z"
+                                               fill="url(#a)"
+                                             />
+                                             <defs>
+                                               <linearGradient
+                                                 id="a"
+                                                 x1="3.45"
+                                                 y1="3.45"
+                                                 x2="21.107"
+                                                 y2="22.661"
+                                                 gradientUnits="userSpaceOnUse"
+                                               >
+                                                 <stop stop-color="#FFAD33" />
+                                                 <stop offset="1" stop-color="#FF8A00" />
+                                               </linearGradient>
+                                             </defs>
+                                           </svg>
+                                         </a>
+                                       </li>
+                                       <li class="footer-social-list">
+                                         <a href="#" class="footer-social-link">
+                                           <svg
+                                             width="24"
+                                             height="24"
+                                             fill="none"
+                                             xmlns="http://www.w3.org/2000/svg"
+                                           >
+                                             <path
+                                               fill-rule="evenodd"
+                                               clip-rule="evenodd"
+                                               d="M12.057 0a11.895 11.895 0 0 0-7.813 2.929 12.37 12.37 0 0 0-4.089 7.404 12.523 12.523 0 0 0 1.588 8.345c1.483 2.501 3.79 4.38 6.506 5.302.607.113.821-.272.821-.597v-2.092c-3.364.748-4.074-1.654-4.074-1.654a3.286 3.286 0 0 0-1.338-1.805c-1.087-.755.088-.755.088-.755.381.055.745.197 1.064.417.32.22.585.511.778.852.163.302.384.57.649.785a2.523 2.523 0 0 0 2.856.241 2.638 2.638 0 0 1 .739-1.646c-2.677-.31-5.487-1.367-5.487-6.042a4.816 4.816 0 0 1 1.235-3.3 4.576 4.576 0 0 1 .118-3.256s1.013-.332 3.313 1.262a11.164 11.164 0 0 1 6.034 0c2.3-1.594 3.305-1.262 3.305-1.262a4.552 4.552 0 0 1 .148 3.233 4.817 4.817 0 0 1 1.235 3.3c0 4.728-2.817 5.763-5.502 6.042.288.296.51.651.652 1.042.142.391.2.809.17 1.224v3.376c0 .4.214.71.827.59a12.102 12.102 0 0 0 6.415-5.322 12.525 12.525 0 0 0 1.548-8.291 12.371 12.371 0 0 0-4.048-7.359A11.899 11.899 0 0 0 12.057 0Z"
+                                               fill="url(#a)"
+                                             />
+                                             <defs>
+                                               <linearGradient
+                                                 id="a"
+                                                 x1="3.45"
+                                                 y1="3.45"
+                                                 x2="21.107"
+                                                 y2="22.661"
+                                                 gradientUnits="userSpaceOnUse"
+                                               >
+                                                 <stop stop-color="#FFAD33" />
+                                                 <stop offset="1" stop-color="#FF8A00" />
+                                               </linearGradient>
+                                             </defs>
+                                           </svg>
+                                         </a>
+                                       </li>
+                                       <li class="footer-social-list">
+                                         <a href="#" class="footer-social-link">
+                                           <svg
+                                             width="24"
+                                             height="24"
+                                             fill="none"
+                         
+                         Farrux Ma'rufjonov, [24.09.21 20:32]
+                         xmlns="http://www.w3.org/2000/svg"
+                                           >
+                                             <path
+                                               fill-rule="evenodd"
+                                               clip-rule="evenodd"
+                                               d="M0 11.79C0 5.279 5.482 0 11.992 0 18.495 0 23.78 5.486 23.78 11.996c0 6.51-5.28 11.992-11.79 11.992L0 24V11.79Zm5.83-3.656a7.31 7.31 0 0 1 6.277-3.57h.007a7.308 7.308 0 1 1-3.005 13.97L4.36 19.608l1.323-4.253a7.31 7.31 0 0 1 .148-7.22Z"
+                                               fill="url(#a)"
+                                             />
+                                             <defs>
+                                               <linearGradient
+                                                 id="a"
+                                                 x1="3.418"
+                                                 y1="3.45"
+                                                 x2="21.088"
+                                                 y2="22.499"
+                                                 gradientUnits="userSpaceOnUse"
+                                               >
+                                                 <stop stop-color="#FFAD33" />
+                                                 <stop offset="1" stop-color="#FF8A00" />
+                                               </linearGradient>
+                                             </defs>
+                                           </svg>
+                                         </a>
+                                       </li>
+                                     </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="sitefooter-botton">
+             <p class="sitefooter-botton-text">
+                This website uses cookies to enhance the user experience. Read ourprivacy policyfor more info.
+             </p>
+         </div>
     </footer>
     <!-- footer end -->
 </body>
